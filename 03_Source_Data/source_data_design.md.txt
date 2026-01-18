@@ -1,0 +1,31 @@
+# Source Data Design
+
+## 1. SALES Table
+Stores transactional sales data.
+
+| Column Name | Description |
+|------------|------------|
+| SALES_ID | Unique sales transaction ID |
+| SALES_DATE | Date of sale |
+| PRODUCT_ID | Product identifier |
+| COUNTRY_ID | Country identifier |
+| QUANTITY | Units sold |
+| SALES_AMOUNT | Sales value |
+
+## 2. PRODUCT Table
+Stores product master data.
+
+| Column Name | Description |
+|------------|------------|
+| PRODUCT_ID | Unique product ID |
+| PRODUCT_NAME | Name of product |
+| CATEGORY | Product category |
+
+## 3. COUNTRY Table
+Stores country master data.
+
+| Column Name | Description |
+|------------|------------|
+| COUNTRY_ID | Unique country ID |
+| COUNTRY_NAME | Country name |
+| REGION | Business region |
