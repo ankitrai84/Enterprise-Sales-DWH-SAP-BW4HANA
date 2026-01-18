@@ -1,0 +1,31 @@
+# SAP BW/4HANA Architecture – LSA++
+
+## Overview
+This project follows SAP BW/4HANA LSA++ architecture to enable scalable and flexible analytics.
+
+## Architecture Flow
+Source System (SQLite Database)
+→ Write-Optimized aDSO (Staging Layer)
+→ Standard aDSO (Business Logic Layer)
+→ Composite Provider
+→ Reporting Tool (Power BI)
+
+## Layer Explanation
+
+### Source Layer
+- Simulates SAP ECC / S4HANA source system
+- Implemented using SQLite database
+
+### Staging Layer (Write-Optimized aDSO)
+- Stores raw transactional data
+- No aggregation or business logic
+- High data load performance
+
+### Corporate Memory / Standard aDSO
+- Cleaned and transformed data
+- Business rules applied
+- Data ready for reporting
+
+### Reporting Layer
+- Composite Provider for flexible modeling
+- Consumption via Power BI dashboards
