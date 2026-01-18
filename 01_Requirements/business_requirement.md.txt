@@ -1,0 +1,21 @@
+# Sales Analytics – Business Requirement
+
+## Background
+The business wants to analyze sales data to understand performance across countries and products.
+
+## Objectives
+- Track daily and monthly sales
+- Analyze country-wise revenue
+- Identify top-selling products
+- Enable data-driven decision making
+
+## KPIs
+- Total Sales
+- Sales by Country
+- Sales by Product
+- Monthly Sales Trend
+
+## Data Scope
+- Sales transactions
+- Product information
+- Country information
